@@ -1,0 +1,35 @@
+$primary-color: red;
+$primary-font: Helvetica;
+$primary-background-color: #456e4b;
+$primary-text-color: white;
+
+button {
+  color: $primary-color;
+  font-family: $primary-font;
+}
+
+p {
+  margin: auto;
+  width: 50%;
+  border: 3px solid white;
+  padding: 10px;
+  font-family: $primary-font;
+  color: $primary-text-color;
+}
+
+h1 {
+  text-align: center;
+  font-family: $primary-font;
+  color: $primary-text-color;
+}
+
+h2 {
+  text-align: center;
+  font-family: $primary-font;
+  color: red;
+}
+
+body {
+  background-color: $primary-background-color;
+  margin: auto;
+}
